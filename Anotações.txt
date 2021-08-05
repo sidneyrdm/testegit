@@ -1,0 +1,45 @@
+…or create a new repository on the command line
+echo "# estrutura-de-dados-em-java-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/sidneyrdm/estrutura-de-dados-em-java-.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/sidneyrdm/estrutura-de-dados-em-java-.git
+git branch -M master
+git push -u origin master
+
+comandos úteis do git
+
+##Git help.:
+git help add
+git help commit
+git help <qualquer_comando_git>
+
+##Definir usuário git
+git config --global user.name "seu nome de usuário"
+
+##Definir email git
+git config --global user.email "seu email"
+
+##Ver lista de configurações
+git config --list
+
+
+#Repositório
+iniciar o git dentro da pasta local
+git init
+
+##verificar o estado atual dos arquivos
+git status
+
+##adicionar todos os arquivos da pasta para serem comitados
+git add .
+
+##comitar os arquivos - para que estes estejam prontos para subir pra nuvem
+git commit -m "mensagem do commit atual" 
+
+##mandar os arquivos comitados para a nuvem
+git push origin master
